@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Helvetica Neue", Arial, sans-serif;
+  
+  --color-brand-primary: #f3f4f6;
+  --color-brand-secondary: rgba(243, 244, 246, 0.6);
+  --color-brand-accent: #60a5fa;
+  --color-bg-dark: #050505;
+  --color-bg-card: rgba(20, 20, 20, 0.6);
+  --color-border-glass: rgba(255, 255, 255, 0.08);
+
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-bg-dark)] text-[var(--color-brand-primary)] antialiased selection:bg-blue-500/30 overflow-x-hidden;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+}
+
+.hero-card-bg {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.8) 0%, rgba(5, 5, 5, 1) 100%);
+}
+
+.content-card-bg {
+  background: rgba(20, 20, 20, 0.6);
+}
+
+.service-pill {
+  @apply px-3 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-[11px] font-bold uppercase tracking-wider;
+}
+
+.h1-sophisticated {
+  @apply text-[64px] leading-[0.95] font-bold tracking-[-2.5px];
+}
+
+.glass {
+  @apply backdrop-blur-xl border border-[var(--color-border-glass)];
+}
+
+.navbar-blur {
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-strip {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Lenis smooth scrolling */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
