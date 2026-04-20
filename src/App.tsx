@@ -4,7 +4,7 @@ import {
   Phone, 
   Mail, 
   MessageSquare, 
-  ArrowRight, 
+  ArrowRight,
   ShoppingBag, 
   Layout, 
   TrendingUp,
@@ -240,35 +240,35 @@ const Projects = () => {
               label="Inspiration"
               description="Modern gym website focused on membership conversion and lead generation."
               image="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1200"
-              link="https://api.whatsapp.com/send?phone=919027062147&text=Hello%20interested%20in%20gym%20website"
+              link="https://www.anytimefitness.co.in/"
             />
             <ProjectCard 
               title="Fitness First India"
               label="Inspiration"
               description="Experience premium club aesthetics with highly effective CTA placement."
               image="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=1200"
-              link="https://api.whatsapp.com/send?phone=919027062147&text=Hello%20interested%20in%20work"
+              link="https://www.anytimefitness.co.in/gyms/in-1043/delhi-delhi-110001/"
             />
             <ProjectCard 
               title="Luxe Fitness Concept"
               label="Inspiration"
               description="High-end minimalist gym design with focused typography and dark aesthetics."
               image="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&q=80&w=1200"
-              link="https://in.pinterest.com/pin/641692646946269772/"
+              link="https://www.fitnessfirst.net.in/clubs/iconic-select-citywalk"
             />
             <ProjectCard 
               title="Elite Training Hub"
               label="Inspiration"
               description="Performance-based gym portal featuring bold action-oriented visuals."
               image="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=1200"
-              link="https://in.pinterest.com/pin/46865652369305484/"
+              link="https://gymindehradun.com/"
             />
             <ProjectCard 
               title="Aesthetic Wellness"
               label="Inspiration"
               description="Clean, modern wellness and fitness landing page focusing on user experience."
               image="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80&w=1200"
-              link="https://in.pinterest.com/pin/23151385580398922/"
+              link="https://www.bharatgymsdehradun.co"
             />
             <ProjectCard 
               title="Power & Flow"
