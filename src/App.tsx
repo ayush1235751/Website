@@ -268,7 +268,7 @@ const Projects = () => {
               label="Inspiration"
               description="Clean, modern wellness and fitness landing page focusing on user experience."
               image="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80&w=1200"
-              link="https://www.bharatgymsdehradun.co"
+              link="https://www.bharatgymsdehradun.com/"
             />
             <ProjectCard 
               title="Power & Flow"
